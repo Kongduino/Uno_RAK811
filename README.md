@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This sketch shows how to use a [WisNode LoRa](https://store.rakwireless.com/products/rak811-lpwan-evaluation-board) with an Arduino Uno or similar to send data from various environmental sensors as LoRa packets. In this case I'm using the following sensors:
+This sketch shows how to use a [WisNode LoRa](https://store.rakwireless.com/products/rak811-lpwan-evaluation-board) with an Arduino Uno or similar to send data from various environmental sensors as LoRa packets. The data is picked up (as an example) by another RAK811 connected to a PC with Python code. See [companion project](https://github.com/Kongduino/DecodeWisnode). In this case I'm using the following sensors:
 
 1. A [BME280 sensor](https://www.seeedstudio.com/Grove-BME280-Environmental-Sensor-Temperature-Humidity-Barometer.html), from SeeedStudio. I'm using [their library](https://github.com/Seeed-Studio/Grove_BME280).
 2. An [HM3301 Laser PM2.5 Dust Sensor](https://www.seeedstudio.com/Grove-Laser-PM2-5-Sensor-HM3301.html), again from Seeed. Using [their library](https://github.com/Seeed-Studio/Seeed_PM2_5_sensor_HM3301).
